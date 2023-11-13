@@ -1,0 +1,28 @@
+[ {
+    "id": 1,
+    "className": "Class A",
+    "students": [
+      {
+        "id": 101,
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      {
+        "id": 102,
+        "firstName": "Jane",
+        "lastName": "Smith"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "className": "Class B",
+    "students": [
+      {
+        "id": 201,
+        "firstName": "Bob",
+        "lastName": "Johnson"
+      }
+    ]
+  }
+]
