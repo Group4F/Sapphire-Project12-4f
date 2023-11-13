@@ -1,0 +1,119 @@
+[
+    {
+        "id" : "1",
+        "firstName" : "John",
+        "lastName" : "Doe",
+        "email" : "john.doe@example.com",
+        "subject" : "Mathematics",
+        "classrooms" : [
+            {
+                "current" : "true",
+                "courseName" : "Algebra 101",
+                "students" : [
+                    {
+                        "studentName" : "Alice Johnson"
+                    },
+                    {
+                        "studentName" : "Bob Smith"
+                    },
+                    {
+                        "studentName" : "Charlie Brown"
+                    }
+                ]
+            },
+            {
+                "current" : "false",
+                "courseName" : "Geometry 201",
+                "students" : [
+                    {
+                        "studentName" : "Eva White"
+                    },
+                    {
+                        "studentName" : "Frank Williams"
+                    },
+                    {
+                        "studentName" : "Grace Davis"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "email": "emily.johnson@example.com",
+        "subject": "History",
+        "classrooms": [
+            {
+                "current" : "true",
+                "courseName": "World History",
+                "students": [
+                    {
+                        "studentName": "Grace Smith"
+                    },
+                    {
+                        "studentName": "Henry Taylor"
+                    },
+                    {
+                        "studentName": "Isabel Clark"
+                    }
+                ]
+            },
+            {
+                "current" : "false",
+                "courseName": "American History",
+                "students": [
+                    {
+                        "studentName": "Jack Davis"
+                    },
+                    {
+                        "studentName": "Karen White"
+                    },
+                    {
+                        "studentName": "Leo Johnson"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "firstName": "Michael",
+        "lastName": "Brown",
+        "email": "michael.brown@example.com",
+        "subject": "Science",
+        "classrooms": [
+            {
+                "current" : "true",
+                "courseName": "Biology 101",
+                "students": [
+                    {
+                        "studentName": "Olivia Smith"
+                    },
+                    {
+                        "studentName": "Peter Wilson"
+                    },
+                    {
+                        "studentName": "Quinn Taylor"
+                    }
+                ]
+            },
+            {
+                "current" : "true",
+                "courseName": "Chemistry 201",
+                "students": [
+                    {
+                        "studentName": "Rachel Davis"
+                    },
+                    {
+                        "studentName": "Samuel Johnson"
+                    },
+                    {
+                        "studentName": "Tina Miller"
+                    }
+                ]
+            }
+        ]
+    }    
+]

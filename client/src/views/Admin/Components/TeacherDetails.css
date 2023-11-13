@@ -1,0 +1,15 @@
+body {
+    background-color: #e3cc9f; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Here I set the 'Classrooms' header font color to be dark blue */
+  .classrooms-header {
+    color: rgb(49, 14, 188);
+  }
+  
+  /* Here I set the font color of the data from the JSON file to be the same dark blue */
+  .box {
+    color: #042c54; 
+  }
