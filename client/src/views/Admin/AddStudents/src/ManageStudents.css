@@ -1,23 +1,22 @@
-/* Set the background color of the entire page to be light blue */
 body {
-  background-color: #061322;
+  background-color: #29456a; 
   margin: 0;
   padding: 0;
 }
 
-/* Set the header font color to be dark blue */
 .students-header {
-  color: #042c54;
+  color: #f8f8f8; 
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center; 
 }
 
-/* Set the font color of the data from the JSON file to be the same dark blue */
 .box {
-  color: #042c54;
+  color: #333; 
 }
 
-/* Style for the button to add a new student */
 button {
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   border: none;
   color: white;
   padding: 10px 20px;
@@ -30,7 +29,7 @@ button {
   border-radius: 4px;
 }
 
-/* Style for the button to unenroll a student */
 button.unenroll {
-  background-color: #f44336; /* Red */
+  background-color: #f44336; 
+  margin-top: -10px; 
 }

@@ -1,13 +1,13 @@
 
 import React, { useState } from 'react';
 import studentsData from './studentsdata.json';
-import './ManageStudents.css'; // Import the CSS file
+import './ManageStudents.css'; 
 
 function ManageStudents() {
-  // State to track the list of classes and students
+  // Track the list of classes and students
   const [classes, setClasses] = useState(studentsData);
 
-  // Function to handle adding a new student to a specific class
+  // adding a new student to a specific class
   const addStudentToClass = (classIndex) => {
     // Prompt the admin for student details
     const firstName = window.prompt('Enter first name:');
@@ -26,14 +26,13 @@ function ManageStudents() {
 
       setClasses(updatedClasses);
     } else {
-      // Handle invalid input (optional)
+      //  invalid input 
       alert('Please enter valid student details.');
     }
   };
 
-  // Function to handle unenrolling a student from a specific class
+  //  unenrolling a student from a specific class
   const unenrollStudentFromClass = (classIndex, studentIndex) => {
-    // Implement logic to remove a student from a specific class
     const updatedClasses = [...classes];
     updatedClasses[classIndex].students.splice(studentIndex, 1);
     setClasses(updatedClasses);
@@ -43,7 +42,7 @@ function ManageStudents() {
     <div>
       <h1 className="students-header">Manage Students</h1>
 
-      {/* Display list of classes and students */}
+      {/*Show roster of classes */}
       {classes.map((classItem, classIndex) => (
         <div key={classIndex}>
           <h2>{classItem.className}</h2>
