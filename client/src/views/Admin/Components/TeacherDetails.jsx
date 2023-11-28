@@ -97,7 +97,7 @@ function TeacherDetails() {
                         <div key={teacher.key}>
                           &nbsp;&nbsp;&nbsp;&nbsp;{data.courseName}
                           <div>&nbsp;&nbsp;&nbsp;&nbsp;# of Students: {data.students.length}</div>
-                          <br />
+                          <br/>
                         </div>
                       )
                       })}
