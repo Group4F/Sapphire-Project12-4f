@@ -5,7 +5,7 @@ import About from './views/About/About';
 import Admin from './views/Admin/Admin';
 import Teachers from './views/Admin/Teachers/TeacherList';
 import Classrooms from './views/Admin/Classrooms/ClassroomList';
-import Organizations from './views/Admin/Organizations/executable/src/Organizations';
+import Organizations from './views/Admin/Organizations/OrganizationList';
 import BlocklyPage from './views/BlocklyPage/BlocklyPage';
 import BugReport from './views/BugReport/BugReport';
 import ContentCreator from './views/ContentCreator/ContentCreator';
