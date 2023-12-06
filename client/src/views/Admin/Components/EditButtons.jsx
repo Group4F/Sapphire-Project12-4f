@@ -8,6 +8,9 @@ const EditButtons = () => {
     };
     const routeClassrooms = () => {
         navigate('/classroomlist');
+    };
+    const routeWorkspaces = () => {
+        navigate('/workspacelist');
       };
     const routeTeachers = () => {
         navigate('/teacherlist');
@@ -28,6 +31,8 @@ const EditButtons = () => {
             <button className="custom-button" onClick={routeOrganizations}>Edit Organizations</button>
             <br/>
             <button className="custom-button" onClick={routeClassrooms}>Edit Classrooms</button>
+            <br/>
+            <button className="custom-button" onClick={routeWorkspaces}>Edit Workspaces</button>
             <br/>
             <button className="custom-button" onClick={routeTeachers}>Edit Teachers</button>
             <br/>
