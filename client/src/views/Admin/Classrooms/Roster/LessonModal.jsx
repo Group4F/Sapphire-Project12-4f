@@ -57,13 +57,9 @@ export default function LessonModal({ linkBtn, classroom }) {
  
         <div id='description-container'>
         <p id='label'>students:</p>
-        <div>this happens {classroom.name} </div>
-        {classrooms.mentors?.map( data => {
-        return( 
-          <div>this happens {data.id} </div>
-        )
-        })}
+
         </div>
+
         <div>this happens</div>
 
         </div>
